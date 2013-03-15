@@ -1,0 +1,9 @@
+{
+  "name": "video-archive",
+  "version": "0.0.1",
+  "description": "stream youtube webm videos into google cloud storage",
+  "dependencies": {
+    "node-gcs": "0.0.2",
+    "ytdl": "~0.1.9"
+  }
+}
