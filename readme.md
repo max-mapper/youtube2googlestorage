@@ -17,7 +17,7 @@ var y2gs = require('youtube2googlestorage')
 var options = {
   'email': 'your google cloud storage "service account" email',
   'pem': 'path to your pem file',
-  'bucket': 'the name of the google storage bucket to put videos into
+  'bucket': 'the name of the google storage bucket to put videos into'
 }
 
 y2gs(options, function(err, upload) {
